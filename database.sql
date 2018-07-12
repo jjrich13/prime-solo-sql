@@ -57,5 +57,5 @@ INSERT INTO "accounts" ("username", "city", "transactions_completed", "transacti
 VALUES ('jeff', 'minneapolis', '0', '1000', '17.76' );
 
 --9
-SElECT * FROM "accounts"
+DELETE FROM "accounts"
 WHERE ("city" = 'miami' OR "city" = 'phoenix') AND "transactions_completed" < 5;
